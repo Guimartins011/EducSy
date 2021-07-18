@@ -1,0 +1,39 @@
+
+$body-bg: #fff;
+$primary: rgba(0, 0, 0, 0.9);
+
+@import "bootstrap/scss/bootstrap.scss";
+
+.navbar-light {
+    background-color: #e9ecef;
+}
+
+// $theme-colors: (
+//   "primary": #1f1,
+//   "danger": #ff4136
+// );
+
+.searchForm {
+    width: 100%;
+}
+footer {
+    width: 100%;
+    background-color: var(--light);
+    color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+  }
+footer .user-logout{
+    margin-left: 20px;
+}
+.sidebar {
+    z-index: 100;    
+    overflow: auto;
+    min-height: 57%;
+}
+.list-group-item,
+.sidebar-col{
+    background-color: $gray-200;
+}
+.react-icons {
+    vertical-align: middle;
+  }
