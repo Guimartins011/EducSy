@@ -117,7 +117,7 @@ class Home extends Component {
                         <Col className="Teste" xs={12} sm={12}>
                             <Card>
                                 <Row>
-                                    Despesas com vencimentos nos próximos 3 dias
+                                    Despesas com vencimentos nos próximos 3 dia
                                 </Row>
                             </Card>
                         </Col>
