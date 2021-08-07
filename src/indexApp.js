@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import '../src/components/assets/css/facilitaStyles.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "tailwindcss/tailwind.css"
 import * as serviceWorker from './serviceWorker';
 import Routes from './routes';

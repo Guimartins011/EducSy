@@ -1,15 +1,5 @@
 import React, {Component} from 'react';
-import {
-    Card,
-    Container,
-    Row,
-    Form,
-    FormGroup,
-    Label,
-    Input,
-    Button,
-    Col
-} from 'reactstrap';
+import {Card,Container,Row,Form,FormGroup,Label,Input,Button,Col} from 'reactstrap';
 import {Link, withRouter} from 'react-router-dom';
 import {CgGirl} from 'react-icons/cg';
 import {BsXSquareFill} from 'react-icons/bs';

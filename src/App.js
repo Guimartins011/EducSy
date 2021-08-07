@@ -1,37 +1,25 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Row, Col } from 'react-bootstrap';
-
-import Layout from "./components/Layout";
-import Sidebar from "./components/Sidebar";
-
-// Pages
-import Inicial from "./pages/Inicial";
-import Alunos from "./pages/aluno/Alunos";
-import Professores from "./pages/Professores";
-import Turmas from "./pages/Turmas";
-import Salas from "./pages/Salas";
+import React from 'react';
+//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Row>
-          <Col xs={2} className="sidebar-col">
-            <Sidebar />
-          </Col>
-          <Col>
-            <Switch>
-              <Route exact path="/" component={Inicial} />
-              <Route exact path="/inicio" component={Inicial} />
-              <Route exact path="/alunos" component={Alunos} />
-              <Route exact path="/professores" component={Professores} />
-              <Route exact path="/turmas" component={Turmas} />
-              <Route exact path="/salas" component={Salas} />
-            </Switch>
-          </Col>
-        </Row>
-      </Layout>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img  className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
